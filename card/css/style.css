@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+}
+.card__title{
+    position:relative;
+    top:16px;
+    width: 200px;
+    background-color: #ff8c00;
+    border: 2px solid black; 
+    border-radius: 8px; 
+    text-align: center;
+}
+.card__body{
+    background-color: darkorange;
+    width: 390px;
+    padding: 20px 10px;
+    border: 2px solid black; 
+    border-radius: 8px; 
+    text-align: center;
+}
+.card__number{
+    font-size: 18px;
+ }
+.card__type-icon{
+    width: 80px;
+    height: 16px;
+    margin: auto 0;
+}
+.card__img{
+    background-color: white;
+    width: 320px;
+    border-radius: 8px;
+}
+.card__icons{
+    width: 30px;
+}
+.card__atributes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+.card__stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    margin: 10px 20px ;
+    padding-bottom: 10px;
+
+}
+.card__leyend{
+    padding: 10px 0;
+}
